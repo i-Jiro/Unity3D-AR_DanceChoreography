@@ -10,14 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
-  m_Name: DanceQueue
+  m_Name: Typography
   m_EditorClassIdentifier: 
-  mEventID: DanceQueue
+  mEventID: Typography
   mEventList:
-  - mStartSample: 6500
-    mEndSample: 6500
-  - mStartSample: 5647058
-    mEndSample: 5647058
+  - mStartSample: 46620
+    mEndSample: 46620
+  - mStartSample: 76405
+    mEndSample: 76405
+  - mStartSample: 128205
+    mEndSample: 128205
+  - mStartSample: 622244
+    mEndSample: 622244
+  - mStartSample: 631048
+    mEndSample: 631048
+  - mStartSample: 648656
+    mEndSample: 648656
   _SerializedPayloadTypes:
   - SonicBloom.Koreo.TextPayload
   _AssetPayloads: []
@@ -35,6 +43,10 @@ MonoBehaviour:
   _SpectrumPayloads: []
   _SpectrumPayloadIdxs: 
   _TextPayloads:
-  - mTextVal: Start
-  - mTextVal: End
-  _TextPayloadIdxs: 0000000001000000
+  - mTextVal: Intro
+  - mTextVal: Intro
+  - mTextVal: Clear
+  - mTextVal: LetsGo
+  - mTextVal: LetsGo
+  - mTextVal: Clear
+  _TextPayloadIdxs: 000000000100000002000000030000000400000005000000

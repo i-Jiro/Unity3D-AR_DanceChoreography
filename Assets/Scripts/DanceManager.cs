@@ -48,6 +48,11 @@ public class DanceManager : MonoBehaviour
         {
             OnStartDance();
         }
+
+        if (text == "End")
+        {
+            _simpleMusicPlayer.Stop();
+        }
     }
 
     private void OnStartDance()
