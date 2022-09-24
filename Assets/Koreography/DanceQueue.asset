@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mEventID: DanceQueue
   mEventList:
-  - mStartSample: 7100
-    mEndSample: 7100
+  - mStartSample: 7050
+    mEndSample: 7050
   - mStartSample: 5647058
     mEndSample: 5647058
   _SerializedPayloadTypes:

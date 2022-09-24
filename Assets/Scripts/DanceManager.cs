@@ -32,7 +32,7 @@ public class DanceManager : MonoBehaviour
     void Start()
     {
         Koreographer.Instance.RegisterForEvents(_danceQueueEventID, OnQueueEvent);
-        StartCoroutine(DelayPlay(3f));
+        StartCoroutine(DelayPlay(5f));
     }
 
     // Update is called once per frame

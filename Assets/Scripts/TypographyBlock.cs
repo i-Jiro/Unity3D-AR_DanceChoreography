@@ -23,6 +23,7 @@ public class TypographyBlock : MonoBehaviour
     //Hide all text in typography block. 
     public void ClearAll()
     {
+        _currentIndex = 0;
         foreach (var textObject in _textLineObjects)
         {
             textObject.SetActive(false);
