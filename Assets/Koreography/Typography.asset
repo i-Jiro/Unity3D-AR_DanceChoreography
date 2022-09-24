@@ -26,6 +26,78 @@ MonoBehaviour:
     mEndSample: 631048
   - mStartSample: 648656
     mEndSample: 648656
+  - mStartSample: 682110
+    mEndSample: 682110
+  - mStartSample: 706860
+    mEndSample: 706860
+  - mStartSample: 779130
+    mEndSample: 779130
+  - mStartSample: 790423
+    mEndSample: 790423
+  - mStartSample: 797130
+    mEndSample: 797130
+  - mStartSample: 804015
+    mEndSample: 804015
+  - mStartSample: 844560
+    mEndSample: 844560
+  - mStartSample: 903465
+    mEndSample: 903465
+  - mStartSample: 905198
+    mEndSample: 905198
+  - mStartSample: 931028
+    mEndSample: 931028
+  - mStartSample: 971208
+    mEndSample: 971208
+  - mStartSample: 998660
+    mEndSample: 998660
+  - mStartSample: 1005840
+    mEndSample: 1005840
+  - mStartSample: 1030590
+    mEndSample: 1030590
+  - mStartSample: 1051380
+    mEndSample: 1051380
+  - mStartSample: 1102860
+    mEndSample: 1102860
+  - mStartSample: 1127610
+    mEndSample: 1127610
+  - mStartSample: 1157310
+    mEndSample: 1157310
+  - mStartSample: 1184040
+    mEndSample: 1184040
+  - mStartSample: 1239480
+    mEndSample: 1239480
+  - mStartSample: 1241882
+    mEndSample: 1241882
+  - mStartSample: 1354763
+    mEndSample: 1354763
+  - mStartSample: 1360875
+    mEndSample: 1360875
+  - mStartSample: 1402895
+    mEndSample: 1402895
+  - mStartSample: 1412154
+    mEndSample: 1412154
+  - mStartSample: 1425114
+    mEndSample: 1425114
+  - mStartSample: 1439754
+    mEndSample: 1439754
+  - mStartSample: 1449828
+    mEndSample: 1449828
+  - mStartSample: 1450008
+    mEndSample: 1450008
+  - mStartSample: 1456812
+    mEndSample: 1456812
+  - mStartSample: 1463742
+    mEndSample: 1463742
+  - mStartSample: 1480500
+    mEndSample: 1480500
+  - mStartSample: 1491462
+    mEndSample: 1491462
+  - mStartSample: 1505952
+    mEndSample: 1505952
+  - mStartSample: 1514772
+    mEndSample: 1514772
+  - mStartSample: 1533546
+    mEndSample: 1533546
   _SerializedPayloadTypes:
   - SonicBloom.Koreo.TextPayload
   _AssetPayloads: []
@@ -49,4 +121,40 @@ MonoBehaviour:
   - mTextVal: LetsGo
   - mTextVal: LetsGo
   - mTextVal: Clear
-  _TextPayloadIdxs: 000000000100000002000000030000000400000005000000
+  - mTextVal: Verse1P1
+  - mTextVal: Verse1P1
+  - mTextVal: Clear
+  - mTextVal: Verse1P2
+  - mTextVal: Verse1P2
+  - mTextVal: Verse1P2
+  - mTextVal: Verse1P2
+  - mTextVal: Clear
+  - mTextVal: Verse1P3
+  - mTextVal: Verse1P3
+  - mTextVal: Verse1P3
+  - mTextVal: Clear
+  - mTextVal: Verse1P4
+  - mTextVal: Verse1P4
+  - mTextVal: Verse1P4
+  - mTextVal: Clear
+  - mTextVal: Verse1P5
+  - mTextVal: Verse1P5
+  - mTextVal: Verse1P5
+  - mTextVal: Clear
+  - mTextVal: Verse1P6
+  - mTextVal: Clear
+  - mTextVal: Verse1P7
+  - mTextVal: Verse1P7
+  - mTextVal: Verse1P7
+  - mTextVal: Verse1P7
+  - mTextVal: Verse1P7
+  - mTextVal: Clear
+  - mTextVal: Verse1P8
+  - mTextVal: Verse1P8
+  - mTextVal: Verse1P8
+  - mTextVal: Verse1P8
+  - mTextVal: Verse1P8
+  - mTextVal: Verse1P8
+  - mTextVal: Verse1P8
+  - mTextVal: Clear
+  _TextPayloadIdxs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000210000002200000023000000240000002500000026000000270000002800000029000000
