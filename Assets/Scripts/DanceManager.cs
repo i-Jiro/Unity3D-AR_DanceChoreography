@@ -14,7 +14,11 @@ public class DanceManager : MonoBehaviour
     
     public delegate void StartDanceEventHandler();
     public event StartDanceEventHandler StartDance;
-
+    public delegate void StartAfterImageEventHandler();
+    public event StartAfterImageEventHandler StartAfterImage;
+    public delegate void EndAfterImageEventHandler();
+    public event EndAfterImageEventHandler EndAfterImage;
+    
     private void Awake()
     {
         if (Instance == null)
@@ -43,6 +47,12 @@ public class DanceManager : MonoBehaviour
                 break;
             case "End":
                 _simpleMusicPlayer.Stop();
+                break;
+            case "AfterImageStart":
+                StartAfterImage?.Invoke();
+                break;
+            case "AfterImageEnd":
+                EndAfterImage?.Invoke();
                 break;
         }
     }
