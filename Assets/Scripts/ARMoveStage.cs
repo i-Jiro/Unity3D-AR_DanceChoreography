@@ -75,6 +75,7 @@ public class ARMoveStage : MonoBehaviour
 
         _danceStage.transform.position = hitPosition;
         _danceStage.transform.rotation = hitRotation;
+        _danceStage.SetActive(true);
         PlacedDanceStage?.Invoke();
         _isPlacingStage = false;
     }
