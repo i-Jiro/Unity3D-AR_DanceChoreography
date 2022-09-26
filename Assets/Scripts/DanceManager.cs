@@ -15,7 +15,6 @@ public class DanceManager : MonoBehaviour
     public delegate void StartDanceEventHandler();
     public event StartDanceEventHandler StartDance;
 
-    
     private void Awake()
     {
         if (Instance == null)
@@ -32,32 +31,25 @@ public class DanceManager : MonoBehaviour
     void Start()
     {
         Koreographer.Instance.RegisterForEvents(_danceQueueEventID, OnQueueEvent);
-        StartCoroutine(DelayPlay(2f));
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnQueueEvent(KoreographyEvent koreoEvent)
     {
-        string text = koreoEvent.GetTextValue();
-        if (text == "Start")
+        string tag = koreoEvent.GetTextValue();
+        switch (tag)
         {
-            OnStartDance();
-        }
-
-        if (text == "End")
-        {
-            _simpleMusicPlayer.Stop();
+            case "Start":
+                StartDance?.Invoke();
+                break;
+            case "End":
+                _simpleMusicPlayer.Stop();
+                break;
         }
     }
 
-    private void OnStartDance()
+    public void StartDanceSequence()
     {
-        StartDance?.Invoke();
+        _simpleMusicPlayer.Play();
     }
 
     IEnumerator DelayPlay(float seconds)

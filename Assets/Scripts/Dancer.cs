@@ -10,12 +10,14 @@ public class Dancer : MonoBehaviour
     private Animator _animator;
     private void OnEnable()
     {
-        DanceManager.Instance.StartDance += StartDanceAnimation;
+        if(DanceManager.Instance != null)
+            DanceManager.Instance.StartDance += OnStartDance;
     }
 
     private void OnDisable()
     {
-        DanceManager.Instance.StartDance -= StartDanceAnimation;
+        if(DanceManager.Instance != null)
+            DanceManager.Instance.StartDance -= OnStartDance;
     }
 
     private void Awake()
@@ -24,7 +26,7 @@ public class Dancer : MonoBehaviour
     }
     
 
-    void StartDanceAnimation()
+    void OnStartDance()
     {
         _animator.SetTrigger("StartDance");
     }

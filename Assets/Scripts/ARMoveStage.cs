@@ -14,13 +14,15 @@ public class ARMoveStage : MonoBehaviour
     public ARHitTestResultType HitTestType = ARHitTestResultType.ExistingPlane;
     [SerializeField] private GameObject _danceStage;
     private IARSession _session;
-    public int userID { get; private set; }
-    public delegate void something(int cd);
-    
+    private bool _isPlacingStage;
+    public delegate void PlacedDanceStageEventHandler();
+    public event PlacedDanceStageEventHandler PlacedDanceStage;
+
     // Start is called before the first frame update
     void Start()
     {
         ARSessionFactory.SessionInitialized += OnAnyARSessionDidInitialized;
+        _isPlacingStage = true;
     }
 
     private void OnAnyARSessionDidInitialized(AnyARSessionInitializedArgs args)
@@ -45,12 +47,18 @@ public class ARMoveStage : MonoBehaviour
     void Update()
     {
         if (_session == null) return;
+        if (!_isPlacingStage) return;
         if (PlatformAgnosticInput.touchCount <= 0) return;
         var touch = PlatformAgnosticInput.GetTouch(0);
         if (touch.phase == TouchPhase.Began)
         {
             MoveStage(touch);
         }
+    }
+
+    public void EnablePlacement()
+    {
+        _isPlacingStage = true;
     }
 
     void MoveStage(Touch touch)
@@ -67,5 +75,8 @@ public class ARMoveStage : MonoBehaviour
 
         _danceStage.transform.position = hitPosition;
         _danceStage.transform.rotation = hitRotation;
+        PlacedDanceStage?.Invoke();
+        _isPlacingStage = false;
     }
+    
 }
