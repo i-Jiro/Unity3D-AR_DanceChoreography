@@ -16,14 +16,26 @@ MonoBehaviour:
   mEventList:
   - mStartSample: 7050
     mEndSample: 7050
-  - mStartSample: 1994697
-    mEndSample: 1994697
-  - mStartSample: 2483845
-    mEndSample: 2483845
-  - mStartSample: 4263733
-    mEndSample: 4263733
-  - mStartSample: 5191912
-    mEndSample: 5191912
+  - mStartSample: 2032941
+    mEndSample: 2032941
+  - mStartSample: 2145882
+    mEndSample: 2145882
+  - mStartSample: 2194830
+    mEndSample: 2194830
+  - mStartSample: 2367463
+    mEndSample: 2367463
+  - mStartSample: 4420200
+    mEndSample: 4420200
+  - mStartSample: 4661644
+    mEndSample: 4661644
+  - mStartSample: 4746155
+    mEndSample: 4746155
+  - mStartSample: 4832014
+    mEndSample: 4832014
+  - mStartSample: 4924014
+    mEndSample: 4924014
+  - mStartSample: 5110380
+    mEndSample: 5110380
   - mStartSample: 5647058
     mEndSample: 5647058
   _SerializedPayloadTypes:
@@ -48,5 +60,11 @@ MonoBehaviour:
   - mTextVal: AfterImageEnd
   - mTextVal: AfterImageStart
   - mTextVal: AfterImageEnd
+  - mTextVal: AfterImageStart
+  - mTextVal: AfterImageEnd
+  - mTextVal: AfterImageStart
+  - mTextVal: AfterImageEnd
+  - mTextVal: AfterImageStart
+  - mTextVal: AfterImageEnd
   - mTextVal: End
-  _TextPayloadIdxs: 000000000100000002000000030000000400000005000000
+  _TextPayloadIdxs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
