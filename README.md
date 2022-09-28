@@ -16,5 +16,5 @@ Built with using Niantic's Lightship ARDK on Unity version 2021.3f.4f1.
 - [After Image Script by madoramu](https://github.com/madoramu/AfterImage)
 - [Dance motion by 支店チョ。](https://seiga.nicovideo.jp/seiga/im6027810)
 - [Original choreography by Maddy Reese](https://www.youtube.com/watch?v=d9H7DnyDKJ0&t=0s)
-- [URP Unitychan Toonshader V2] (https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project)
+- [URP Unitychan Toonshader V2](https://github.com/unity3d-jp/UnityChanToonShaderVer2_Project)
 - [3D Models by Sabao3179](https://twitter.com/kubotatoshinobu)
