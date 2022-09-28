@@ -1,6 +1,6 @@
 # Augmented Reality Dance Choreography
 
-[Watch Full Video Demo:](https://streamable.com/qly5o8#)
+[Watch Full Video Demo](https://streamable.com/qly5o8#)
 
 An augumented reality dance choreography experience! A 3D choreographed dance to the song 'Classic' by MKTO with effects in-sync.
 Built with using Niantic's Lightship ARDK on Unity version 2021.3f.4f1.
